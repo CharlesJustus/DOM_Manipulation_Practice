@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    console.log("Hello, World!")
+
+    function add7(num){
+        return (num + 7);
+    }
+    function multiply(num1,num2){
+        return (num1 * num2);
+    }
+    function capitalize(word){
+        let step1 = word.toLowerCase();
+        return (step1.charAt(0).toUpperCase() + step1.slice(1));
+    }
+    function lastLetter(word){
+        return(word.charAt(word.length-1));
+    }
+    let test = capitalize("HEllo");
+    console.log(test);
+
+    let test2 = lastLetter("skibidit");
+    console.log(test2);
+  </script>
+</body>
+</html>
